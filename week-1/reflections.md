@@ -4,8 +4,11 @@ I have worked at home for the passed 4 years.  Working without the formal struct
 In this exercise, I researched several time management and productivity ideas including:  meditation, flow states, proper diet, exercise, and getting enough sleep.  One of the tactic that I've yet to be able to implement as a productivity tool is the flow state.  As known as "the zone" or "peak performance", I've experienced flow states in my hobbies but have not been less successful getting into this state while doing work.  For Phase 0, I plan to try some of the techniques that I read about for inducing a flow state:
 
 -Finding the time of day I'm least distracted
+
 -Finding my ideal environment
+
 -Making the work challenging (but not too challenging)
+
 -Getting lost in it
 
 Another strategy I read about is called "Time Boxing".  This is when you set a specific amount of time to complete a task.  I currently use this tactic and plan to continue using it in Phase 0.  I have found that tasks take as much time or as little time as you've scheduled for them.  For example, say I was assigned to write a paper.  If the due date was in a week, it would take me about a week to write it.  If it was due in two hours, I would complete a paper of similar quality in two hours instead of a week.  I plan to apply phenomenon this to Phase 0 -- planning (relatively short) boxes of time to complete tasks.
