@@ -1,9 +1,4 @@
-![Jeff's sitemap](imgs/site-map.jpg "Site Map")
 ![Jeff's sitemap](site-map.jpg "Site Map")
-![Jeff's sitemap](phase-0/week-2/imgs/site-map.jpg "Site Map")
-![Jeff's sitemap](github.com/jjschnei/phase-0/blob/master/week-2/imgs/site-map.jpg "Site Map")
-
-
 ##What are the 6 Phases of Web Design?
 
 1.       Information Gathering
