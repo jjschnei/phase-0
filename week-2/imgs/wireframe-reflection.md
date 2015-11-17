@@ -1,4 +1,4 @@
-![blog wireframe](phase-0/week-2/imgs/index-blog-wireframe.png "Blog Wireframe")
+![blog wireframe](index-blog-wireframe.png "Blog Wireframe")
 
 
 ##What is a wireframe?
