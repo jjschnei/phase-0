@@ -1,4 +1,6 @@
+![Jeff's sitemap](https://github.com/jjschnei/phase-0/week-2/imgs/site-map.jpg "Site Map")
 ![Jeff's sitemap](github.com/jjschnei/phase-0/week-2/imgs/site-map.jpg "Site Map")
+![Jeff's sitemap](phase-0/week-2/imgs/site-map.jpg "Site Map")
 
 ##What are the 6 Phases of Web Design?
 
