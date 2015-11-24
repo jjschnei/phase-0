@@ -1,0 +1,75 @@
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+-you should use a relative path whenever linking and external stylesheet. Also you must include the rel and type attributes.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+-It was pretty difficult. We used an inline block to get the two text columns side by side.
+What CSS did you use to modify the element style (like size, color, etc.)
+-we used font-size, font-weight and color.
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+-yes we used classes and id's. We used classes when we needed to change stuff like font sizes in multiple places and we used id's for specific inline changes like the heading letters.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+-they were pretty similar, we didn't quite nail everything down (e.g- spacing for columns) so I think their site was a bit cleaner but it is very nearly identical.
+*/
+
+header {
+    color: #000080;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+}
+.larger{
+    font-size: 30px;
+}
+.smaller{
+    font-size: 16px;
+}
+
+#line {
+    border-top: thin solid black;
+}
+
+body {
+    color:#000080
+    background-color:white;
+}
+
+a {
+    color:#800080
+}
+
+
+a:visited {
+    color:#ff0000
+}
+
+#left {
+    display:inline-block;
+    width:300px;
+    margin:10px;
+    color:#000080;
+
+}
+
+
+#right {
+    display:inline-block;
+    width:300px;
+    margin:10px;
+    color:#000080;
+}
+
+.info {
+  font-size:12px;
+  color:#000080;
+}
+
+section{
+    color:#000080;
+    font-size: 13px
+
+}
+
+#center {
+    text-align: center;
+}
