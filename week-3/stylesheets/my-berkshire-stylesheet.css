@@ -1,14 +1,24 @@
 /*
-What is important to know when linking an external file (like a stylesheet) to an HTML file?
--you should use a relative path whenever linking and external stylesheet. Also you must include the rel and type attributes.
-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
--It was pretty difficult. We used an inline block to get the two text columns side by side.
-What CSS did you use to modify the element style (like size, color, etc.)
--we used font-size, font-weight and color.
-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
--yes we used classes and id's. We used classes when we needed to change stuff like font sizes in multiple places and we used id's for specific inline changes like the heading letters.
-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
--they were pretty similar, we didn't quite nail everything down (e.g- spacing for columns) so I think their site was a bit cleaner but it is very nearly identical.
+##What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+It's important to use the correct relative path in order to link your CSS stylesheet to your html file.  It's good practice to keep them in separate directories.
+
+
+##What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We struggled a bit with the positioning. We used in-line block to keep our two unordered lists on the same line.
+
+##What CSS did you use to modify the element style (like size, color, etc.)
+
+We used font-size, font-weight and color.
+
+##Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we did. We needed to use classes and IDs in order to change the text attributes inside of links and inside of text strings. For example, we used id's to make the first letters larger in the heading.
+
+##When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+Both sites were clear. Our html was more minimal than theirs.  For example, they put their unordered list of links inside of a column.  This made their spacing look a bit better. Overall, the two sites look very similar.
 */
 
 header {
