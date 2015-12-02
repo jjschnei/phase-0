@@ -26,4 +26,4 @@ A group of letters in a program. They are mainly used to write words and sentenc
 A variable is when you assign a short string (starting with a lowercase letter) to some other object.  You can point your variable to a string or integer or any object.  You can also reasign variables.  You use varaibles so you don't have to keep typing the same thing over and over again.
 
 ##How was the challenge
-This challenge was pretty easy.  The content was farily basic and it's review from what we had to learn to appply to DBC.
+This challenge was pretty easy.  The content was fairly basic and it's review from what we had to learn to appply to DBC.
