@@ -5,12 +5,9 @@
 
 
 # RSpec Tests. They are included in this file because the local variables you are creating are not accessible across files. If we try to run these files as a separate file per normal operation, the local variable checks will return nil.
-num1 = 7
-num2 = 12
-sum = 7 + 12
-difference = 7 - 12
-quotient = 7.0 / 12.0
-modulus = 7 % 12
+old_string = "Ruby is cool"
+old_string = "LOOC SI YBUR"
+new_string = "Ruby is cool"
 
 describe "old_string" do
   it 'is defined as a local variable' do
