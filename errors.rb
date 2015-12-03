@@ -1,6 +1,6 @@
 # Analyze the Errors
 
-# I worked on this challenge by myslef
+# I worked on this challenge by myself
 # I spent [#] hours on this challenge.
 
 # --- error -------------------------------------------------------
@@ -82,9 +82,9 @@
 # 3. What additional information does the interpreter provide about this type of error?
 # in `cartmans_phrase': wrong number of arguments (1 for 0)
 # 4. Where is the error in the code?
-# The cartmans_phrase method doesn't take a peramater as written. When it's being called on line 76, there are 3 parameters given.
+# The cartmans_phrase method doesn't take a parameter as written. When it's being called on line 76, there are 3 parameters given.
 # 5. Why did the interpreter give you this error?
-# The number of paramaters needs to be consistent between defining a method and calling it.  This could be fixed by adding 3 paramaters to the definition, or removing the 3 words inside the ().
+# The number of parameters needs to be consistent between defining a method and calling it.  This could be fixed by adding 3 parameters to the definition, or removing the 3 words inside the ().
 
 # --- error -------------------------------------------------------
 
@@ -103,7 +103,7 @@
 # 4. Where is the error in the code?
 # Same as the previous questions -- the method takes one argument but when it's called there is no argument.
 # 5. Why did the interpreter give you this error?
-# Ruby demands that the quantity of method arguments is consistent for a method.  Solve this ssue by adding an argument to cartman_says online 95.
+# Ruby demands that the quantity of method arguments is consistent for a method.  Solve this issue by adding an argument to cartman_says online 95.
 
 
 
@@ -176,7 +176,7 @@
 # --- REFLECTION -------------------------------------------------------
 #
 ### Which error was the most difficult to read?
-# They all had about the same difficuty. I had to look up require_relative, so that was probably the hardest.
+# They all had about the same difficulty. I had to look up require_relative, so that was probably the hardest.
 #### How did you figure out what the issue with the error was?
 #A combination of reading the error message and then visually looking at the code for errors based on what we've learned so far.
 ### Were you able to determine why each error message happened based on the code?
