@@ -1,3 +1,3 @@
-puts 1*365.242*24
-
-puts 1*10*365.242*24*60
+puts "how old are you?"
+answer = gets.chomp
+puts (answer + 1)
