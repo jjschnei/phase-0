@@ -37,6 +37,7 @@ def pad!(array, min_size, value = nil) #destructive
     end
       return array
   end
+  pad! {array.length >= min_size}
 end
 
 
