@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent 5 hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -108,3 +108,19 @@ end
 end
 
 # 3. Reflection
+
+
+# What was your process for breaking the problem down? What different approaches did you consider?
+#I really sturggled getting any working solution at all. I finally got something by working backwards with coderpad.
+
+# Was your pseudocode effective in helping you build a successful initial solution?
+#It was helpful but it still took about 5 hours to get a working solution.
+
+# What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+#My initial solution did not work. It took me about 5 hour to finally get anything to work. I consider my only working solution to be my refacored solution for this assignemnt.
+
+# How did you initially iterate through the data structure?
+#I used if/elsif/else statements with unitl loops inside of them.
+
+# Do you feel your refactored solution is more readable than your initial solution? Why?
+#Yes, my initial solution would not work correclty. My refactored one is still too long, but at least it works.
