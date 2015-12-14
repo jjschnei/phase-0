@@ -19,10 +19,25 @@ def group_students(array_of_names)
 end
 
 #More functionality
-puts "give me 9 last names"
+puts "please list the last names of students that need to be put in groups. Separate by a space."
 array_of_names = gets.chomp.split(" ").to_a
 
 def group_students(array_of_names)
   return array_of_names.shuffle.each_slice(5).to_a
 end
 
+
+# What was the most interesting and most difficult part of this challenge?
+#It was interesting to learn a new method, split. The hardest part was not being able to fully test the code.
+
+# Do you feel you are improving in your ability to write pseudocode and break the problem down?
+#I'm improving, but still have a long ways to go.
+
+# Was your approach for automating this task a good solution? What could have made it even better?
+#I don't know what 'automating' means.  Is that to code the pseudocode?
+
+# What data structure did you decide to store the accountability groups in and why?
+#I decided to store the names in an array of arrays. I didn't put a lot of thought into it in retrospect.  I knew how to do it so I went with this structure.  It may have made more sense to use a hash with the key being the name and the value the group number.
+
+# What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+#I learned the each_slice method.
