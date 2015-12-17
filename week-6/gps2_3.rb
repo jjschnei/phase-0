@@ -1,42 +1,41 @@
 # Your Names
-# 1)
+# 1) Jeff Schneider
 # 2)
 
 # We spent [#] hours on this challenge.
 
-# Bakery Serving Size portion calculator.
+ #Bakery Serving Size portion calculator.
 
-def serving_size_calc(item_to_make, num_of_ingredients)
-  library = {"cookie" => 1, "cake" =>  5, "pie" => 7}
-  error_counter = 3
+def batch_calc(item_to_make, num_of_ingredients)
+  ingredients_per_item = {"cookie" => 1, "cake" =>  5, "pie" => 7}
 
-  library.each do |food|
-    if library[food] != library[item_to_make]
-      error_counter += -1
-    end
-  end
-
-  if error_counter > 0
+  unless ingredients_per_item.include?(item_to_make)
     raise ArgumentError.new("#{item_to_make} is not a valid input")
   end
 
-  serving_size = library.values_at(item_to_make)[0]
-  remaining_ingredients = num_of_ingredients % serving_size
 
-  case remaining_ingredients
-  when 0
-    return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}"
+  ingredients_required = ingredients_per_item[item_to_make]
+  remaining_ingredients = num_of_ingredients % ingredients_required
+
+  number_of_extra_cakes = remaining_ingredients / ingredients_per_item["cake"]
+  number_of_extra_cookies = remaining_ingredients % ingredients_per_item["cake"]
+
+
+  if remaining_ingredients == 0
+    return "Calculations complete: Make #{num_of_ingredients /ingredients_required} of #{item_to_make}"
   else
-    return "Calculations complete: Make #{num_of_ingredients / serving_size} of #{item_to_make}, you have #{remaining_ingredients} leftover ingredients. Suggested baking items: TODO: MAKE THIS FEATURE"
+    return "Calculations complete: Make #{num_of_ingredients /ingredients_required} of #{item_to_make}, you have #{remaining_ingredients} leftover ingredients. Available additional baking items: #{number_of_extra_cakes} cakes and #{number_of_extra_cookies} cookies."
   end
+
 end
 
-p serving_size_calc("pie", 7)
-p serving_size_calc("pie", 8)
-p serving_size_calc("cake", 5)
-p serving_size_calc("cake", 7)
-p serving_size_calc("cookie", 1)
-p serving_size_calc("cookie", 10)
-p serving_size_calc("THIS IS AN ERROR", 5)
+
+p batch_calc("pie", 7)
+p batch_calc("pie", 8)
+p batch_calc("cake", 5)
+p batch_calc("cake", 7)
+p batch_calc("cookie", 1)
+p batch_calc("cookie", 10)
+
 
 #  Reflection
