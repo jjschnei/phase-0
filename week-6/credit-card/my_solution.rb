@@ -31,50 +31,50 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
-class CreditCard
-  def initialize(num)
-    if num.to_s.length != 16
-      raise ArgumentError.new("Number must be 16 digits")
-    else
-      @num = num
-    end
-  end
+# class CreditCard
+#   def initialize(num)
+#     if num.to_s.length != 16
+#       raise ArgumentError.new("Number must be 16 digits")
+#     else
+#       @num = num
+#     end
+#   end
 
-  def double
-    @num = @num.to_s.split("")
-    @num = @num.map.with_index do |x, y|
-      if (y + 1).odd?
-        x.to_i * 2
-      else
-        x.to_i
-      end
-    end
-  end
+#   def double
+#     @num = @num.to_s.split("")
+#     @num = @num.map.with_index do |x, y|
+#       if (y + 1).odd?
+#         x.to_i * 2
+#       else
+#         x.to_i
+#       end
+#     end
+#   end
 
-  def separate
-    @arr = @num.map do |num|
-      if num > 9
-        num.to_s.split("").map {|x| x.to_i }
-      else
-        num
-      end
-    end
-  end
+#   def separate
+#     @arr = @num.map do |num|
+#       if num > 9
+#         num.to_s.split("").map {|x| x.to_i }
+#       else
+#         num
+#       end
+#     end
+#   end
 
-  def sum
-    @arr.flatten!
-    @sum = @arr.inject(:+)
-  end
+#   def sum
+#     @arr.flatten!
+#     @sum = @arr.inject(:+)
+#   end
 
-  def check_card
-    if @sum % 10 == 0
-      return true
-    else
-      return false
-    end
-  end
+#   def check_card
+#     if @sum % 10 == 0
+#       return true
+#     else
+#       return false
+#     end
+#   end
 
-end
+# end
 
 
 
@@ -116,6 +116,9 @@ class CreditCard
   end
 
   def check_card
+    self.double
+    self.separate
+    self.sum
     if @sum % 10 == 0
       true
     else
