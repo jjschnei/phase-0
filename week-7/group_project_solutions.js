@@ -1,6 +1,5 @@
 Release 1: Tests to User Stories
 
-As a user, I want to calculate the sum of an array.
 
 pseudocode:
 // Accept an array of numbers from the user.
@@ -11,7 +10,7 @@ pseudocode:
 // When the loop is finished, the new variable that you created will equal the sum of the user's array.
 
 
-As a user, I want to calculate the mean of an array.
+
 
 pseudocode:
 // Accept an array of numbers from the user.
@@ -22,10 +21,10 @@ pseudocode:
 // When the loop is finished, the new variable that you created will equal the sum of the user's array.
 // Divide the new variable contaiing the sum by the length of the user's array.  This will give the mean of the array.
 
-As a user, I want to calculate the median of an odd length array.
+
 
 pseudocode:
-// Accept an array of numbers from the user.
+// Accept an array containing an odd number of numbers from the user.
 // Order the array by the size of the elements. (Reminder: you will neet to use the compareFunction to sort numbers by size)
 // Create a new variable to hold the value of the median.
 // Set the new variable to the ordered array with an index of the array.length minus 1 and divided by 2.
@@ -33,12 +32,13 @@ pseudocode:
 
 
 
-As a user, I want to calculate the median of an even length array.
 
 pseudocode:
-// Accept an array of numbers from the user.
+// Accept an array with an even number of numbers from the user.
 // Order the array by the size of the elements. (Reminder: you will neet to use the compareFunction to sort numbers by size)
 // Create two new variables.  One will be for the lower of the two middle numbers and one will be for the higher of the two middle numbers.
 // Set the lower variable to the ordered array with an index of the array.length divided by 2.
 // Set the higher variable to the ordered array with the result of index of the array.length divided by 2 and then plus 1.
 // Create a new variable called median.  Set it equal to the sum of the lower variable and higher variable divded by 2.  Be careful with your order of opperations.  You will need brackets around the addition so that it happens before the division.
+// The variable median will now equal the median of the array.
+
