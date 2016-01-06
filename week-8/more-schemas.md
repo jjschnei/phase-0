@@ -1,6 +1,6 @@
-<img = src"imgs/image.png" >
+<img src="imgs/image.png" >
 This is one to one because all states only have on state flower.  Similarly, all state flowers only have one state.
-<img = src"/imgs/image2.png" >
+<img src="imgs/image2.png" >
 
 Reflection:
 ##What is a one-to-one database?
