@@ -108,7 +108,6 @@ class BingoScorer
       i += 4
     end
     test = test.flatten
-    p test
     if test == @bingo
       p 'Bingo!'
     else
@@ -174,6 +173,28 @@ test.right_to_left_win
 
 
 
+def right_to_left_win
+      if @flat[4] == 'x'
+        test<<['x']
+      elsif @flat[8] == 'x'
+        test<<['x']
+      elsif @flat[12] == 'x'
+        test<<['x']
+      elsif @flat[16] == 'x'
+        test<<['x']
+      else @flat[20] == 'x'
+        test<<['x']
+      end
+    test = test.flatten
+    if test == @bingo
+      p 'Bingo!'
+    else
+      p "Sorry, no left to right win."
+    end
+  end
+
+
+
 
 
 # DRIVER TESTS GO BELOW THIS LINE
@@ -181,3 +202,6 @@ test.right_to_left_win
 
 
 # Reflection
+# What concepts did you review or learn in this challenge?
+# What is still confusing to you about Ruby?
+# What are you going to study to get more prepared for Phase 1?
