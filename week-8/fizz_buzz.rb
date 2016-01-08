@@ -57,3 +57,12 @@ super_fizzbuzz([3,1,2,3,4,5,6,7,15])
 
 
 # Reflection
+
+## What concepts did you review or learn in this challenge?
+# It was really helpful to review how to iterate over an array.
+
+## What is still confusing to you about Ruby?
+# Classes and iterating through multi-dimentional arrays/hashes.
+
+## What are you going to study to get more prepared for Phase 1?
+# I'm going to re-read Learn to Program and do as many of these review challenges as possible.
